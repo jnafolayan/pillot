@@ -1,29 +1,11 @@
-# pillot
+# Pillot
 
-## Project setup
-```
-yarn install
-```
+A minimalist online quiz website. Try it out here: https://jnafolayan.github.io/pillot/
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+# Technology
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+This repository contains the frontend code built using the Vue.js framework.
 
-### Run your tests
-```
-yarn run test
-```
+# Related
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Find the backend code here: https://github.com/jnafolayan/pillot-server
