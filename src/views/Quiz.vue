@@ -30,7 +30,9 @@ export default {
     createSession() {
       const compo = this;
 
-      if (this.quiz.session)
+      if (!localStorage.getItem('token'))
+        return this.$router.push({ name: 'view-quiz', query: { auth: true } });
+      else if (this.quiz.session)
         return;
       else
         this.$store.dispatch('createSession', { axios: this.$http, quizId: this.quiz.refId })
