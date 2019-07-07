@@ -1,0 +1,47 @@
+.container-fluid {
+  padding: 0 $spacing-3;
+}
+
+.container {
+  @extend .container-fluid;
+}
+
+.section {
+  padding: $spacing-4 0;
+}
+
+.section__heading {
+  font-size: $fs-heading;
+  font-family: $ff-heading;
+  font-weight: lighter;
+  color: $grey-darker;
+  text-align: center;
+
+  &:after {
+    content: "";
+    display: block;
+    margin: $spacing-2 auto;
+    margin-bottom: $spacing-4;
+    width: 100%;
+    max-width: 200px;
+    height: 4px;
+    background-color: rgba($secondary, 0.7);
+  }
+}
+
+.page {
+  padding-top: $spacing-4;
+  padding-bottom: $spacing-4;
+}
+
+.page__heading {
+  font-size: $fs-heading;
+  font-family: $ff-heading;
+  font-weight: normal;
+  color: $grey-darker;
+  text-align: left;
+}
+
+.page__body {
+  padding: $spacing-2 0;
+}
